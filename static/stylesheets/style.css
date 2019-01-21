@@ -1,5 +1,5 @@
 @import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
-@import url('font.css');
+@import url('http://notikki.github.io/static/stylesheets/font.css');
 
 * {
     margin: 0;
@@ -12,4 +12,180 @@ body {
     font-family: tyvncms, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
+}
+
+a {
+	color: #313131;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #d25801;
+}
+
+div, ul {
+	display: block;
+}
+
+li {
+	list-style: none;
+}
+
+/* -------- HEADER -------- */
+#header {
+	width: 100%;
+	position: fixed;
+	background-color: #ffffff;
+	height: 55px;
+	border-bottom: 1px solid #eeeeee;
+	top: 0;
+}
+
+.header-menu-btn {
+	float: left;
+	margin-top: 14px;
+	margin-left: 80px;
+}
+
+.header-menu-btn i {
+	font-size: 24px;
+	color: #666;
+}
+
+.header-logo {
+	float: left;
+	margin-left: 50px;
+}
+
+.action-box {
+	float: right;
+}
+
+.action-user {
+	float: left;
+}
+
+i:hover {
+	cursor: pointer;
+}
+
+.action-user .action-bell-icon, .action-user .action-envelope-icon, .action-user .action-userfriends-icon {
+	float: left;
+	margin-top: 14px;
+	margin-right: 40px;
+}
+
+.action-user .action-bell-icon i, .action-user .action-envelope-icon i, .action-user .action-userfriends-icon i {
+	font-size: 24px;
+	color: #666;
+}
+
+.action-avatar {
+	float: right;
+	margin-top: 10px;
+	margin-right: 30px;
+}
+
+button#btn-post {
+	border: 1px solid #1da1f2;
+	color: #ffffff;
+	font-size: 14px;
+	line-height: 20px;
+	background-color: #1da1f2;
+	text-align: center;
+	padding: 10px 14px;
+	border-radius: 50px;
+	margin-right: 30px;
+    margin-top: 6px;
+}
+
+.action-avatar img {
+	width: 32px;
+	height: 32px;
+	border-radius: 16px;
+}
+
+.action-avatar img:hover {
+	cursor: pointer;
+}
+/* -------- End HEADER -------- */
+
+/* -------- POUPUP MENU -------- */
+#popup-dashboard {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	visibility: hidden;
+	opacity: 0;
+	background: rgba(0, 0, 0, 0.8);
+	z-index: 9999;
+	transition: 0.4s;
+}
+
+#popup-dashboard.active {
+	opacity: 1;
+	visibility: visible;
+}
+
+#popup-dashboard #menu-dashboard {
+	width: 320px;
+	height: 100%;
+	background-color: #ffffff;
+	position: fixed;
+	top: 0;
+	right: -320px;
+	z-index: 99999;
+	transition: 0.4s;
+}
+
+#popup-dashboard #menu-dashboard.show {
+	right: 0;
+	opacity: 1;
+	visibility: visible;
+}
+
+#popup-dashboard #menu-dashboard h4 {
+	text-transform: uppercase;
+	font-size: 1rem;
+	text-align: center;
+	padding: 1rem;
+	border-bottom: 1px solid #ddd;
+	line-height: normal;
+	margin-bottom: 1rem;
+}
+
+.user-box {
+
+}
+
+.user-box p {
+	font-size: 0.9rem;
+    padding: 0 1rem;
+    color: #777;
+    text-align: center;
+}
+
+.user-box .avatar-box img {
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+}
+
+.user-box ul {
+
+}
+
+.user-box ul li {
+	padding: 20px 10px;
+	background: none repeat scroll 0 0 #FFF;
+    border-bottom: 1px solid #EBEBEB;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.user-box ul li:first-child {
+	border-top: 1px solid #EBEBEB;
+	margin-top: 10px;
 }

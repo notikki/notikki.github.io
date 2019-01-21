@@ -90,8 +90,57 @@ layout: compress
     
   </head>
   <body>
+        <div id="header">
+                <div class="header-content">
+                    <div class="header-menu-btn">
+                            <i class="fas fa-bars" id="menu-btn"></i>
+                    </div>
+                    <div class="header-logo">
+                        <img src="logo.png" alt="Logo">
+                    </div>
+                    <div class="action-box">
+                        <div class="action-user">
+                            <div class="action-userfriends-icon">
+                                <i class="fas fa-user-friends"></i>
+                            </div>
+                        </div>
+                        <div class="action-avatar">
+                            <a href="#"><img src="avatar.jpg" alt="Avatar"></a>
+                        </div>
+                        <button id="btn-post">Post Status</button>				
+                    </div>
+                </div>
+            </div>
+            <div id="dialog-bg">
+                <div id="dialog-post-view">
+                <div class="dialog-post-header">
+                    <h4 class="title">Create Status</h4>
+                </div>
+                <div class="dialog-post-body">
+                    <form action="/post" method="post">
+                        <textarea name="contentStatus" id="content-status" placeholder="Ask a question..."></textarea>
+                        <button type="submit" id="btn-status">Share Status</button>
+                    </form>
+                </div>
+            </div>
+            </div>
+            <div id="popup-dashboard">
+                <div id="menu-dashboard">
+                    <h4>Dashboard</h4>
+                    <div class="user-box">
+                        <p>Hi! <b>Endlov3</b></p>
+                        <ul>
+                            <li><i class="fas fa-plus"></i> <a href="#"> Post Status</a></li>
+                            <li><i class="fas fa-bell"></i> <a href="#"> Notification</a></li>
+                            <li><i class="fas fa-eye"></i> <a href="#"> View Profile</a></li>
+                            <li><i class="fas fa-cog"></i> <a href="#"> Setting</a></li>
+                            <li><i class="fas fa-power-off"></i> <a href="#"> Logout</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
     <div class="home">
-      <div class="col-sm-8 col-offset-1 main-layout">
+      <div class="main-layout">
         {{ content }}
       </div>
       <!-- end /.col-sm-8 -->
