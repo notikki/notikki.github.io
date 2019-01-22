@@ -64,7 +64,7 @@ li {
 }
 
 #header .logo img {
-    margin-left: 18px;
+    margin-left: 60px;
     margin-top: 6px;
 }
 
@@ -135,6 +135,7 @@ li {
 }
 
 .list1 h2 {
+    font-size: 18px;
     margin-bottom: 10px;
     text-transform: uppercase;
 }
