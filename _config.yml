@@ -3,9 +3,7 @@ description: Something to say -  Còn chút gì để gáy
 author: Đỗ Minh Tùng
 github: https://github.com/notikki
 about: I am coder. I like Javascript and Vuejs.
-disqus_shortname: stackproblems
-google_analytics: UA-XXXXXXXX-Y
-avatar_url: /static/img/avatar.jpg
+disqus_shortname: ilikenode
 
 enableTags: true
 tagarray: []
@@ -24,7 +22,6 @@ social:
 
 share:
   twitter_username: notikki
-  fb_appid: 1749788565247320
 
 urls:
     - text: About Me
