@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Tạo blog vào ngày đá bóng Việt Nam vs Jordan"
+excerpt: "Việt Nam Vô Địch"
 date:   2019-01-20 18:34:10 +0700
 categories: [linhtinh, exception]
 ---

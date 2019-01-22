@@ -1,5 +1,5 @@
 @import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
-@import url('https://fonts.googleapis.com/css?family=VT323&subset=vietnamese');
+@import url("https://fonts.googleapis.com/css?family=Athiti:400,600|Source+Code+Pro:400,600&subset=vietnamese");
 * {
     margin: 0;
     padding: 0;
@@ -8,7 +8,7 @@
 
 body {
     font-size: 16px;
-    font-family: 'VT323', monospace;
+    font-family: 'Athiti', monospace;
     margin: 0;
     padding: 0;
     color: #2c3e50;
