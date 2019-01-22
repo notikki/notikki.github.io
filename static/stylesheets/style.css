@@ -139,6 +139,14 @@ li {
     text-transform: uppercase;
 }
 
+.list1 p.excerpt {
+    font-size: 14px;
+}
+
+.list1 span {
+    font-size: 10px;
+}
+
 .nodejs-tag {
     background-color: #009933;
     border-radius: 3px;
