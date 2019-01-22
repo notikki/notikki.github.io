@@ -109,6 +109,13 @@ li {
     margin: 60px auto;
 }
 
+.view {
+    border: 0 solid #e1e1e1;
+    background: #fff;
+    margin: 0;
+    padding: 2px 4px 4px;
+}
+
 
 .dmt {
     background-color: #F2F6F8;
