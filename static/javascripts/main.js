@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function removeShowPopup() {
         popup.classList.remove('active');
-        popup.classList.remove('active');
+        menuPopup.classList.remove('active');
     }
 
     menuBtn.addEventListener('click', actionShowPopup);
