@@ -159,3 +159,43 @@ li {
     white-space: nowrap;
     padding: 1px 4px 2px;
 }
+
+#popup {
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 99;
+    transition: 0.4s;
+}
+
+#popup.active {
+    opacity: 1;
+    visibility: visible;
+    transition: 0.4s;
+}
+
+#popup #menu-popup {
+    width: 320px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: -320px;
+    visibility: hidden;
+    z-index: 999;
+    transition: 0.4s;
+    background-color: #ffffff;
+    opacity: 0;
+    padding: 6px 10px;
+}
+
+#popup #menu-popup.active {
+    opacity: 1;
+    visibility: visible;
+    left: 0;
+    transition: 0.4s;
+}
